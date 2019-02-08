@@ -1,13 +1,7 @@
 # Write your code here.
 def take_a_number(katz_deli, name)
-  # number taken = katz_deli + next number
-  number = katz_deli.size
-  number.each do |newnumber|
-  # katz_deli + number taken + name
-    newnumber += 1
-  # puts name, position in line
-    puts ("#{name}" + newnumber)
-  end
+  katz_deli << name
+  puts "Welcome, #{name}. You are number #{katz_deli.size} in line"
 end
 
 def line(katz_deli)
