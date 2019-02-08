@@ -17,9 +17,11 @@ def line(katz_deli)
 end
 
 def now_serving ()
-  if line == 0
+  if line.isempty?
     puts "There is nobody waiting to be served!"
   else
+    puts "Currently serving #{katz_deli.first}."
     # next person in line
+    katz_deli.shift
   end
 end
