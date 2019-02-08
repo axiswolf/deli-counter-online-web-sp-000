@@ -4,7 +4,7 @@ def take_a_number(katz_deli, name)
   number = katz_deli.size
   number.each do |newnumber|
   # katz_deli + number taken + name
-    number += 1
+    newnumber += 1
   # puts name, position in line
     puts ("#{name}", number)
   end
