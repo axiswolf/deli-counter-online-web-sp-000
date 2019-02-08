@@ -6,7 +6,7 @@ def take_a_number(katz_deli, name)
   # katz_deli + number taken + name
     newnumber += 1
   # puts name, position in line
-    puts ("#{name}", number)
+    puts ("#{name}" +  number)
   end
 end
 
