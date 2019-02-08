@@ -16,7 +16,7 @@ def line(katz_deli)
   puts "The line is currently: #{line_positions.join(" ")}"
 end
 
-def now_serving ()
+def now_serving (katz_deli)
   if line.isempty?
     puts "There is nobody waiting to be served!"
   else
