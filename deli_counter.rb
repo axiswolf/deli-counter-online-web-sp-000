@@ -4,9 +4,10 @@ def take_a_number(katz_deli, name)
   number = katz_deli.size
   number.each do |newnumber|
   # katz_deli + number taken + name
-    number += 1 
+    number += 1
   # puts name, position in line
     puts ("#{name}", number)
+  end
 end
 
 def line(katz_deli)
@@ -16,9 +17,9 @@ def line(katz_deli)
 end
 
 def now_serving ()
-  if line == 0 
+  if line == 0
     puts "There is nobody waiting to be served!"
-  else 
+  else
     # next person in line
   end
 end
